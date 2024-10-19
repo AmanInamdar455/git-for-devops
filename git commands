@@ -1,0 +1,23 @@
+git init: Initializes a new Git repository in your current directory. It creates a hidden .git directory for tracking changes.
+
+git clone <repository-url>: Clones an existing repository from a remote source (like GitHub) to your local machine.
+
+git status: Displays the status of your working directory and staging area, showing changes that are staged, not staged, or untracked.
+
+git add <file-name>: Adds a specific file to the staging area (prepares it for commit). You can use git add . to stage all changes.
+
+git commit -m "<commit-message>": Commits staged changes with a descriptive message explaining what the changes are about.
+
+git push: Pushes your local commits to a remote repository (like GitHub). Typically, you push to a specific branch (e.g., git push origin main).
+
+git pull: Fetches and merges changes from a remote repository into your local branch.
+
+git branch: Lists all branches in your repository or creates a new branch (e.g., git branch feature-branch).
+
+git checkout <branch-name>: Switches to a specified branch in your repository.
+
+git merge <branch-name>: Merges changes from another branch into the current branch.
+
+git log: Shows a history of commits in the repository, listing each commit along with details like the author and date.
+
+git reset --hard <commit-id>: Resets the repository to a specific commit, discarding all changes made after that commit.
